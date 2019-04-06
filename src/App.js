@@ -10,7 +10,9 @@ class App extends Component {
           <h1>This portfolio website is currently under construction.</h1>
           <h2>
             Visit the old portfolio website{" "}
-            <a href="https://jsmnglng.github.io">here</a>
+            <a href="https://jsmnglng.github.io" style={{ color: "#97cfff" }}>
+              here
+            </a>
           </h2>
         </header>
       </div>
