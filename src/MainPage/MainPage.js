@@ -5,7 +5,9 @@ import {
   ImageWrapper,
   MainImage,
   Section,
-  ProjectGallery
+  ProjectGallery,
+  Project,
+  Footer
 } from "./MainPage.style";
 
 class MainPage extends Component {
@@ -50,8 +52,81 @@ class MainPage extends Component {
             .
           </p>
 
-          <ProjectGallery />
+          <ProjectGallery>
+            <Project>
+              <h3>PERSONAL</h3>
+              <h2>Project Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </Project>
+
+            <Project>
+              <h3>PERSONAL</h3>
+              <h2>Project Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </Project>
+
+            <Project>
+              <h3>PERSONAL</h3>
+              <h2>Project Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </Project>
+          </ProjectGallery>
         </Section>
+
+        <Footer>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/jsmnglng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/jsmnglng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/jsmnglng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/jsmnglng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Email
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/jsmnglng" rel="noopener noreferrer">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </Footer>
       </MainContainer>
     );
   }
