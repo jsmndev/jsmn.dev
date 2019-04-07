@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { MainPage } from "../MainPage";
 
+import { AppContainer } from "./App.style";
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <AppContainer>
         <MainPage />
-      </div>
+      </AppContainer>
     );
   }
 }

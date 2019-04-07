@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
+import { MainContainer } from "./MainPage.style";
+
 class MainPage extends Component {
   render() {
-    return <div>Main page</div>;
+    return <MainContainer>Main page</MainContainer>;
   }
 }
 
