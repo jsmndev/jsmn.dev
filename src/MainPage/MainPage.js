@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import StaticProjectGallery from "./StaticProjectGallery";
 
 import {
   MainContainer,
@@ -58,34 +59,7 @@ class MainPage extends Component {
             .
           </p>
 
-          <ProjectGallery>
-            <Project>
-              <h3>PERSONAL</h3>
-              <h2>Project Name</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </Project>
-
-            <Project>
-              <h3>PERSONAL</h3>
-              <h2>Project Name</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </Project>
-
-            <Project>
-              <h3>PERSONAL</h3>
-              <h2>Project Name</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </Project>
-          </ProjectGallery>
+          <StaticProjectGallery />
         </Section>
 
         <Section>
