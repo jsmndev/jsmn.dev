@@ -109,21 +109,31 @@ export const Project = styled.div`
 `;
 
 export const Skills = styled.div`
-  padding: 10px;
-  border: 1px solid blue;
+  margin-top: 3rem;
+
+  .row {
+    ${flex()}
+    width: 85%;
+  }
 
   .col-2 {
-    border: 1px solid red;
+    width: 50%;
+
+    li {
+      ${flex("flex-start", "center")}
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
   }
 `;
 
 export const SkillsIcon = styled.img`
-  border: 1px solid blue;
-  width: 50px;
+  width: 6rem;
+  margin-right: 1.5rem;
 `;
 
 export const Footer = styled.footer`
-  margin-top: 20rem;
+  margin-top: 10rem;
   margin-bottom: 7rem;
 
   ul {
