@@ -128,7 +128,7 @@ class MainPage extends Component {
           <ul>
             <li>
               <a
-                href="https://github.com/jsmnglng"
+                href="https://twitter.com/jsmnglng"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -146,7 +146,7 @@ class MainPage extends Component {
             </li>
             <li>
               <a
-                href="https://github.com/jsmnglng"
+                href="https://www.linkedin.com/in/jsmnglng/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -154,16 +154,14 @@ class MainPage extends Component {
               </a>
             </li>
             <li>
+              <a href="mailto:jsmn.glng@gmail.com">Email</a>
+            </li>
+            <li>
               <a
-                href="https://github.com/jsmnglng"
+                href="https://resume.creddle.io/resume/ikm2c1ejimy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Email
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/jsmnglng" rel="noopener noreferrer">
                 Resume
               </a>
             </li>
