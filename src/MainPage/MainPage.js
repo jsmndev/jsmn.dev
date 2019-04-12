@@ -7,6 +7,8 @@ import {
   Section,
   ProjectGallery,
   Project,
+  Skills,
+  SkillsIcon,
   Footer
 } from "./MainPage.style";
 
@@ -84,6 +86,70 @@ class MainPage extends Component {
               </p>
             </Project>
           </ProjectGallery>
+        </Section>
+
+        <Section>
+          <h1>SKILLS.</h1>
+          <p>
+            Some of the technologies and frameworks I’m currently learning and
+            using for my projects right now are:
+          </p>
+
+          <Skills>
+            <div className="row">
+              <div className="col-2">
+                <ul>
+                  <li>
+                    <SkillsIcon
+                      src={require("../_assets/img/icon-html.png")}
+                      alt="skills-icon"
+                    />
+                    HTML
+                  </li>
+                  <li>
+                    <SkillsIcon
+                      src={require("../_assets/img/icon-css.png")}
+                      alt="skills-icon"
+                    />
+                    CSS
+                  </li>
+                  <li>
+                    <SkillsIcon
+                      src={require("../_assets/img/icon-javascript.png")}
+                      alt="skills-icon"
+                    />
+                    JavaScript
+                  </li>
+                </ul>
+              </div>
+
+              <div className="col-2">
+                <ul>
+                  <li>
+                    <SkillsIcon
+                      src={require("../_assets/img/icon-sass.png")}
+                      alt="skills-icon"
+                    />
+                    Sass
+                  </li>
+                  <li>
+                    <SkillsIcon
+                      src={require("../_assets/img/icon-react.png")}
+                      alt="skills-icon"
+                    />
+                    React
+                  </li>
+                  <li>
+                    <SkillsIcon
+                      src={require("../_assets/img/icon-node.png")}
+                      alt="skills-icon"
+                    />
+                    Node
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Skills>
         </Section>
 
         <Footer>

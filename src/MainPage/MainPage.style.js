@@ -8,15 +8,13 @@ import {
 } from "../_styles/variables.style";
 
 export const MainContainer = styled.div`
-  border: 1px solid red;
   width: 80%;
   margin: 0 auto;
   color: ${blackRegular};
 `;
 
 export const ImageWrapper = styled.div`
-  border: 1px solid blue;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 10rem;
   ${flex()}
 `;
@@ -49,6 +47,11 @@ export const Section = styled.section`
 
   .secondary-headline {
     color: ${blackLight};
+
+    a {
+      border-bottom: 1px solid ${blackLight};
+      color: ${blackLight};
+    }
   }
 
   a {
@@ -103,6 +106,20 @@ export const Project = styled.div`
   p {
     color: ${blackLight};
   }
+`;
+
+export const Skills = styled.div`
+  padding: 10px;
+  border: 1px solid blue;
+
+  .col-2 {
+    border: 1px solid red;
+  }
+`;
+
+export const SkillsIcon = styled.img`
+  border: 1px solid blue;
+  width: 50px;
 `;
 
 export const Footer = styled.footer`
