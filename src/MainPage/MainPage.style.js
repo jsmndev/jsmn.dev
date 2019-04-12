@@ -8,19 +8,19 @@ import {
 } from "../_styles/variables.style";
 
 export const MainContainer = styled.div`
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   color: ${blackRegular};
 `;
 
 export const ImageWrapper = styled.div`
-  margin-top: 10vh;
-  margin-bottom: 20rem;
-  ${flex("center")}
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  ${flex()}
 `;
 
 export const MainImage = styled.img`
-  width: 90%;
+  width: 5.5rem;
   height: auto;
 `;
 
@@ -29,7 +29,7 @@ export const Section = styled.section`
 
   h1 {
     margin-bottom: 2.5rem;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     color: ${redRegular};
   }
@@ -37,6 +37,21 @@ export const Section = styled.section`
   p {
     font-size: 2.5rem;
     line-height: 4rem;
+  }
+
+  .main-headline {
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  .secondary-headline {
+    color: ${blackLight};
+
+    a {
+      border-bottom: 1px solid ${blackLight};
+      color: ${blackLight};
+    }
   }
 
   a {
@@ -93,8 +108,32 @@ export const Project = styled.div`
   }
 `;
 
+export const Skills = styled.div`
+  margin-top: 3rem;
+
+  .row {
+    ${flex()}
+    width: 85%;
+  }
+
+  .col-2 {
+    width: 50%;
+
+    li {
+      ${flex("flex-start", "center")}
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+  }
+`;
+
+export const SkillsIcon = styled.img`
+  width: 6rem;
+  margin-right: 1.5rem;
+`;
+
 export const Footer = styled.footer`
-  margin-top: 20rem;
+  margin-top: 10rem;
   margin-bottom: 7rem;
 
   ul {
