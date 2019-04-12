@@ -33,7 +33,7 @@ export const Section = styled.section`
     font-weight: 700;
     color: ${redRegular};
 
-    @media (max-width: 780px) {
+    @media (max-width: 78rem) {
       font-size: 3rem;
     }
   }
@@ -42,7 +42,7 @@ export const Section = styled.section`
     font-size: 2.5rem;
     line-height: 4rem;
 
-    @media (max-width: 780px) {
+    @media (max-width: 78rem) {
       font-size: 2rem;
     }
   }
@@ -52,7 +52,7 @@ export const Section = styled.section`
     font-size: 4rem;
     line-height: 6rem;
 
-    @media (max-width: 780px) {
+    @media (max-width: 78rem) {
       font-size: 3rem;
     }
   }
@@ -61,19 +61,19 @@ export const Section = styled.section`
     color: ${blackLight};
 
     a {
-      border-bottom: 1px solid ${blackLight};
+      border-bottom: 0.1rem solid ${blackLight};
       color: ${blackLight};
     }
   }
 
   a {
-    border-bottom: 1px solid ${blackRegular};
+    border-bottom: 0.1rem solid ${blackRegular};
     color: ${blackRegular};
     text-decoration: none;
     transition: 150ms ease-in;
 
     &:hover {
-      border-bottom: 1px solid ${redRegular};
+      border-bottom: 0.1rem solid ${redRegular};
       color: ${redRegular};
     }
   }
@@ -83,7 +83,7 @@ export const ProjectGallery = styled.div`
   ${flex("space-between")}
   margin: 3.5rem 0;
 
-  @media (max-width: 930px) {
+  @media (max-width: 93rem) {
     flex-wrap: wrap;
   }
 `;
@@ -94,18 +94,18 @@ export const Project = styled.div`
   height: 25rem;
   padding: 2.5rem;
 
-  @media (max-width: 930px) {
+  @media (max-width: 93rem) {
     width: 44%;
     margin: 2rem;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 85rem) {
     width: 90%;
     margin: 2rem;
     height: 20rem;
   }
 
-  @media (max-width: 560px) {
+  @media (max-width: 56rem) {
     height: 25rem;
   }
 
@@ -116,15 +116,24 @@ export const Project = styled.div`
     opacity: 0.7;
   }
 
+  a {
+    &:hover {
+      color: ${blackRegular};
+    }
+  }
+
   h2 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    padding: 0.3rem;
+    background-color: ${redLight};
     cursor: pointer;
     transition: 150ms ease-in;
 
     &:hover {
-      color: ${redRegular};
+      /* color: ${redRegular}; */
+      border-bottom: 0.3rem solid ${blackRegular};
     }
   }
 
@@ -146,7 +155,7 @@ export const Skills = styled.div`
     ${flex()}
     width: 85%;
 
-    @media (max-width: 650px) {
+    @media (max-width: 65rem) {
       flex-wrap: wrap;
     }
   }
@@ -154,7 +163,7 @@ export const Skills = styled.div`
   .col-2 {
     width: 50%;
 
-    @media (max-width: 650px) {
+    @media (max-width: 65rem) {
       width: 100%;
     }
 
@@ -175,20 +184,20 @@ export const Footer = styled.footer`
   margin-top: 10rem;
   margin-bottom: 7rem;
 
-  @media (max-width: 650px) {
+  @media (max-width: 65rem) {
     margin-bottom: 5rem;
   }
 
   ul {
     ${flex()}
-    @media (max-width: 650px) {
+    @media (max-width: 65rem) {
       flex-wrap: wrap;
     }
 
     li {
       margin-right: 4rem;
 
-      @media (max-width: 650px) {
+      @media (max-width: 65rem) {
         width: 100%;
         margin-bottom: 3rem;
         font-size: 1.8rem;
