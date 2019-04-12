@@ -8,19 +8,21 @@ import {
 } from "../_styles/variables.style";
 
 export const MainContainer = styled.div`
-  width: 60%;
+  border: 1px solid red;
+  width: 80%;
   margin: 0 auto;
   color: ${blackRegular};
 `;
 
 export const ImageWrapper = styled.div`
-  margin-top: 10vh;
-  margin-bottom: 20rem;
-  ${flex("center")}
+  border: 1px solid blue;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  ${flex()}
 `;
 
 export const MainImage = styled.img`
-  width: 90%;
+  width: 5.5rem;
   height: auto;
 `;
 
@@ -29,7 +31,7 @@ export const Section = styled.section`
 
   h1 {
     margin-bottom: 2.5rem;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     color: ${redRegular};
   }
@@ -37,6 +39,16 @@ export const Section = styled.section`
   p {
     font-size: 2.5rem;
     line-height: 4rem;
+  }
+
+  .main-headline {
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  .secondary-headline {
+    color: ${blackLight};
   }
 
   a {

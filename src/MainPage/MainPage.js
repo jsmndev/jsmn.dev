@@ -23,9 +23,13 @@ class MainPage extends Component {
 
         <Section>
           <h1>HELLO WORLD.</h1>
-          <p>
-            I'm Jasmine Galang and I'm an aspiring full-stack developer. I'm
-            currently studying web development with computer science at{" "}
+          <p class="main-headline">
+            I’m Jasmine Galang and I’m a front-end developer who is always
+            creating and learning awesome stuff.
+          </p>
+
+          <p class="secondary-headline">
+            Currently studying web development with computer science at{" "}
             <a
               href="https://lambdaschool.com/"
               target="_blank"
