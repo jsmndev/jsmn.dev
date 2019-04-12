@@ -1,12 +1,11 @@
 import React, { Component } from "react";
+import StaticProjectGallery from "./StaticProjectGallery";
 
 import {
   MainContainer,
   ImageWrapper,
   MainImage,
   Section,
-  ProjectGallery,
-  Project,
   Skills,
   SkillsIcon,
   Footer
@@ -25,12 +24,12 @@ class MainPage extends Component {
 
         <Section>
           <h1>HELLO WORLD.</h1>
-          <p class="main-headline">
+          <p className="main-headline">
             I’m Jasmine Galang and I’m a front-end developer who is always
             creating and learning awesome stuff.
           </p>
 
-          <p class="secondary-headline">
+          <p className="secondary-headline">
             Currently studying web development with computer science at{" "}
             <a
               href="https://lambdaschool.com/"
@@ -58,34 +57,7 @@ class MainPage extends Component {
             .
           </p>
 
-          <ProjectGallery>
-            <Project>
-              <h3>PERSONAL</h3>
-              <h2>Project Name</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </Project>
-
-            <Project>
-              <h3>PERSONAL</h3>
-              <h2>Project Name</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </Project>
-
-            <Project>
-              <h3>PERSONAL</h3>
-              <h2>Project Name</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </Project>
-          </ProjectGallery>
+          <StaticProjectGallery />
         </Section>
 
         <Section>
@@ -156,7 +128,7 @@ class MainPage extends Component {
           <ul>
             <li>
               <a
-                href="https://github.com/jsmnglng"
+                href="https://twitter.com/jsmnglng"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -174,7 +146,7 @@ class MainPage extends Component {
             </li>
             <li>
               <a
-                href="https://github.com/jsmnglng"
+                href="https://www.linkedin.com/in/jsmnglng/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -182,16 +154,14 @@ class MainPage extends Component {
               </a>
             </li>
             <li>
+              <a href="mailto:jsmn.glng@gmail.com">Email</a>
+            </li>
+            <li>
               <a
-                href="https://github.com/jsmnglng"
+                href="https://resume.creddle.io/resume/ikm2c1ejimy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Email
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/jsmnglng" rel="noopener noreferrer">
                 Resume
               </a>
             </li>
