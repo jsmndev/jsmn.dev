@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
-        {/* <UnderConstruction /> */}
+        <UnderConstruction />
         <MainPage />
       </AppContainer>
     );
