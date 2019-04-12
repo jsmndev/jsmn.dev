@@ -33,7 +33,7 @@ export const Section = styled.section`
     font-weight: 700;
     color: ${redRegular};
 
-    @media (max-width: 78rem) {
+    @media (max-width: 780px) {
       font-size: 3rem;
     }
   }
@@ -42,7 +42,7 @@ export const Section = styled.section`
     font-size: 2.5rem;
     line-height: 4rem;
 
-    @media (max-width: 78rem) {
+    @media (max-width: 780px) {
       font-size: 2rem;
     }
   }
@@ -52,7 +52,7 @@ export const Section = styled.section`
     font-size: 4rem;
     line-height: 6rem;
 
-    @media (max-width: 78rem) {
+    @media (max-width: 780px) {
       font-size: 3rem;
     }
   }
@@ -83,7 +83,7 @@ export const ProjectGallery = styled.div`
   ${flex("space-between")}
   margin: 3.5rem 0;
 
-  @media (max-width: 93rem) {
+  @media (max-width: 930px) {
     flex-wrap: wrap;
   }
 `;
@@ -94,18 +94,18 @@ export const Project = styled.div`
   height: 25rem;
   padding: 2.5rem;
 
-  @media (max-width: 93rem) {
+  @media (max-width: 930px) {
     width: 44%;
     margin: 2rem;
   }
 
-  @media (max-width: 85rem) {
+  @media (max-width: 850px) {
     width: 90%;
     margin: 2rem;
     height: 20rem;
   }
 
-  @media (max-width: 56rem) {
+  @media (max-width: 560px) {
     height: 25rem;
   }
 
@@ -155,7 +155,7 @@ export const Skills = styled.div`
     ${flex()}
     width: 85%;
 
-    @media (max-width: 65rem) {
+    @media (max-width: 650px) {
       flex-wrap: wrap;
     }
   }
@@ -163,7 +163,7 @@ export const Skills = styled.div`
   .col-2 {
     width: 50%;
 
-    @media (max-width: 65rem) {
+    @media (max-width: 650px) {
       width: 100%;
     }
 
@@ -184,20 +184,20 @@ export const Footer = styled.footer`
   margin-top: 10rem;
   margin-bottom: 7rem;
 
-  @media (max-width: 65rem) {
+  @media (max-width: 650px) {
     margin-bottom: 5rem;
   }
 
   ul {
     ${flex()}
-    @media (max-width: 65rem) {
+    @media (max-width: 650px) {
       flex-wrap: wrap;
     }
 
     li {
       margin-right: 4rem;
 
-      @media (max-width: 65rem) {
+      @media (max-width: 650px) {
         width: 100%;
         margin-bottom: 3rem;
         font-size: 1.8rem;
