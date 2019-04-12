@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { MainPage } from "../MainPage";
-import UnderConstruction from "./UnderConstruction";
 
 import { AppContainer } from "./App.style";
 

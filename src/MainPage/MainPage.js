@@ -6,8 +6,6 @@ import {
   ImageWrapper,
   MainImage,
   Section,
-  ProjectGallery,
-  Project,
   Skills,
   SkillsIcon,
   Footer
@@ -26,12 +24,12 @@ class MainPage extends Component {
 
         <Section>
           <h1>HELLO WORLD.</h1>
-          <p class="main-headline">
+          <p className="main-headline">
             I’m Jasmine Galang and I’m a front-end developer who is always
             creating and learning awesome stuff.
           </p>
 
-          <p class="secondary-headline">
+          <p className="secondary-headline">
             Currently studying web development with computer science at{" "}
             <a
               href="https://lambdaschool.com/"
