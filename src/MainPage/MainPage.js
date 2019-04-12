@@ -16,7 +16,7 @@ class MainPage extends Component {
       <MainContainer>
         <ImageWrapper>
           <MainImage
-            src={require("../_assets/svg/main-logo.svg")}
+            src={require("../_assets/img/main-logo.png")}
             alt="main-image"
           />
         </ImageWrapper>
