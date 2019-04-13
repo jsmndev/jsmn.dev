@@ -25,7 +25,7 @@ class MainPage extends Component {
         <Section>
           <h1>HELLO WORLD.</h1>
           <p className="main-headline">
-            I’m Jasmine Galang and I’m a front-end developer who is always
+            I’m Jasmine Galang and I’m a full-stack developer who is always
             creating and learning awesome stuff.
           </p>
 
