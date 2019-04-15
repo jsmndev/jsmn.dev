@@ -8,12 +8,12 @@ import {
 } from "../../_styles/variables.style";
 
 export const NavContainer = styled.div`
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.01);
   ${wrapper()}
   position: fixed;
   top: 0;
   left: 0;
   background-color: ${whiteRegular};
+  transition: 150ms ease-in;
 `;
 
 export const NavWrapper = styled.div`
