@@ -11,10 +11,12 @@ const Hero = () => {
         />
       </div>
       <div className="drop-down-icon">
-        <img
-          src={require("../../_assets/img/down-arrow.png")}
-          alt="down arrow"
-        />
+        <a href="#about">
+          <img
+            src={require("../../_assets/img/down-arrow.png")}
+            alt="down arrow"
+          />
+        </a>
       </div>
     </HeroContainer>
   );

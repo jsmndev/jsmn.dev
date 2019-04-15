@@ -28,7 +28,7 @@ class Navbar extends Component {
     return (
       <NavContainer className={this.state.active}>
         <NavWrapper>
-          <NavBrand href="#">
+          <NavBrand href="#top">
             <img
               src={require("../../_assets/img/main-logo.png")}
               alt="letter J"
@@ -37,13 +37,13 @@ class Navbar extends Component {
           <NavMenu>
             <ul>
               <li>
-                <a href="#/">Home</a>
+                <a href="#top">Home</a>
               </li>
               <li>
-                <a href="#about/">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#projects/">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li id="resume">
                 <a
