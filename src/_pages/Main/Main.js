@@ -6,17 +6,20 @@ import { About } from "../../_components/About";
 import { Projects } from "../../_components/Projects";
 import { Footer } from "../../_components/Footer";
 
-import { MainContainer } from "./Main.style";
+import { MainContainer, MainWrapper } from "./Main.style";
 
 class Main extends Component {
   render() {
     return (
       <MainContainer>
         <Navbar />
-        <Hero />
-        <About />
-        <Projects />
-        <Footer />
+
+        <MainWrapper>
+          <Hero />
+          <About />
+          <Projects />
+          <Footer />
+        </MainWrapper>
       </MainContainer>
     );
   }
