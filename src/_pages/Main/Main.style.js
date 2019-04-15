@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { flex } from "../_styles/mixins.style";
+import { flex } from "../../_styles/mixins.style";
 import {
   redRegular,
   redLight,
   blackRegular,
   blackLight
-} from "../_styles/variables.style";
+} from "../../_styles/variables.style";
 
 export const MainContainer = styled.div`
   width: 80%;
