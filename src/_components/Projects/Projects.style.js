@@ -9,8 +9,8 @@ import {
 } from "../../_styles/variables.style";
 
 export const ProjectContainer = styled.section`
-  height: 100vh;
-  padding-top: 10rem;
+  padding-top: 15rem;
+
   h1 {
     margin-bottom: 3rem;
     ${headingStyle}
@@ -72,9 +72,11 @@ export const Project = styled.section`
     }
 
     .btn-group {
+      position: relative;
       font-size: 1.4rem;
       text-transform: uppercase;
       letter-spacing: 0.3rem;
+      z-index: 1;
 
       a {
         margin-right: 3rem;

@@ -18,8 +18,9 @@ class Main extends Component {
           <Hero />
           <About />
           <Projects />
-          <Footer />
         </MainWrapper>
+
+        <Footer />
       </MainContainer>
     );
   }

@@ -20,8 +20,9 @@ background-color: ${whiteRegular};
 color: ${redRegular};
 
 &:hover {
-  border-color: ${redLight};
-  color: ${redLight};
+  border-color: ${redRegular};
+  background-color: ${redLight};
+  color: ${redRegular};
 }
 `;
 

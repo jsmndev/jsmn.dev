@@ -25,10 +25,20 @@ const StaticProjectGallery = () => {
           </p>
 
           <div className="btn-group">
-            <a className="app-btn" href="https://learnedadev.netlify.com/">
+            <a
+              className="app-btn"
+              href="https://learnedadev.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               view
             </a>
-            <a className="src-btn" href="https://github.com/learneda">
+            <a
+              className="src-btn"
+              href="https://github.com/learneda"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               source
             </a>
           </div>
@@ -53,10 +63,20 @@ const StaticProjectGallery = () => {
           </p>
 
           <div className="btn-group">
-            <a className="app-btn" href="https://luncher-0311.netlify.com/">
+            <a
+              className="app-btn"
+              href="https://luncher-0311.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               view
             </a>
-            <a className="src-btn" href="https://github.com/build-week-luncher">
+            <a
+              className="src-btn"
+              href="https://github.com/build-week-luncher"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               source
             </a>
           </div>
@@ -94,12 +114,19 @@ const StaticProjectGallery = () => {
           </p>
 
           <div className="btn-group">
-            <a className="app-btn" href="https://ls-notes.netlify.com/">
+            <a
+              className="app-btn"
+              href="https://ls-notes.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               view
             </a>
             <a
               className="src-btn"
               href="https://github.com/jsmnglng/front-end-project-week"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               source
             </a>

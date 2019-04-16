@@ -2,8 +2,6 @@ import styled from "styled-components";
 import { flex, wrapper } from "../../_styles/mixins.style";
 import {
   blackLight,
-  redRegular,
-  redLight,
   whiteRegular,
   buttonLight
 } from "../../_styles/variables.style";
@@ -13,7 +11,7 @@ export const NavContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: ${whiteRegular};
   transition: 150ms ease-in;
 `;
