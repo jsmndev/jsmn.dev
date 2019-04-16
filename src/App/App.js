@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MainPage } from "../MainPage";
+import { Main } from "../_pages/Main";
 
 import { AppContainer } from "./App.style";
 
@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
-        <MainPage />
+        <Main />
       </AppContainer>
     );
   }
