@@ -42,8 +42,13 @@ export const Project = styled.section`
   ${flex()}
   margin-bottom: 10rem;
 
+  /* screenshot of the project application */
   .project-thumbnail {
     width: 50%;
+
+    @media (max-width: 610px) {
+      display: none;
+    }
 
     img {
       width: 90%;
@@ -59,6 +64,11 @@ export const Project = styled.section`
     width: 50%;
     padding: 0.5rem 0;
 
+    @media (max-width: 610px) {
+      width: 100%;
+    }
+
+    /* project team category */
     h3 {
       font-size: 1.8rem;
       letter-spacing: 0.2rem;
@@ -69,8 +79,17 @@ export const Project = styled.section`
         font-size: 1.6rem;
         line-height: 2rem;
       }
+
+      @media (max-width: 610px) {
+        font-size: 1.5rem;
+      }
+
+      @media (max-width: 400px) {
+        font-size: 1.4rem;
+      }
     }
 
+    /* project title */
     h2 {
       margin-bottom: 3rem;
       font-size: 3.5rem;
@@ -83,6 +102,7 @@ export const Project = styled.section`
       }
     }
 
+    /* project mini description */
     p {
       font-size: 1.8rem;
       line-height: 3rem;
@@ -93,6 +113,15 @@ export const Project = styled.section`
       @media (max-width: 885px) {
         font-size: 1.6rem;
         line-height: 2.5rem;
+      }
+
+      @media (max-width: 610px) {
+        height: 8rem;
+      }
+
+      @media (max-width: 400px) {
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
       }
     }
 
@@ -112,6 +141,7 @@ export const Project = styled.section`
         }
       }
 
+      /* View button */
       .app-btn {
         ${buttonDark}
         padding-left: 3.8rem;
@@ -119,11 +149,10 @@ export const Project = styled.section`
 
         @media (max-width: 755px) {
           padding: 0.5rem 2.8rem;
-          /* padding-top: 0.5rem;
-          padding-bottom: 0.5rem; */
         }
       }
 
+      /* Source button */
       .src-btn {
         ${buttonLight}
 
@@ -133,6 +162,7 @@ export const Project = styled.section`
       }
     }
 
+    /* minions illustrations */
     .minions {
       text-align: right;
       img {

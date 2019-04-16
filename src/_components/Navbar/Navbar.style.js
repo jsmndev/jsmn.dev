@@ -82,6 +82,10 @@ export const NavMenu = styled.nav`
     li:last-child {
       a {
         ${buttonLight}
+
+        @media (max-width: 500px) {
+          padding: 1rem 2rem;
+        }
       }
     }
   }
