@@ -42,7 +42,7 @@ class Navbar extends Component {
           </NavBrand>
           <NavMenu>
             <ul>
-              <li>
+              <li className="page-links">
                 <Link
                   activeClass="active"
                   to="home"
@@ -54,7 +54,7 @@ class Navbar extends Component {
                   Home
                 </Link>
               </li>
-              <li>
+              <li className="page-links">
                 <Link
                   activeClass="active"
                   to="about"
@@ -66,7 +66,7 @@ class Navbar extends Component {
                   About
                 </Link>
               </li>
-              <li>
+              <li className="page-links">
                 <Link
                   activeClass="active"
                   to="projects"

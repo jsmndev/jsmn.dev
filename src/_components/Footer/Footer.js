@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://twitter.com/jsmnglng"
+              href="https://www.linkedin.com/in/jsmnglng/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,20 +24,14 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://twitter.com/jsmnglng"
+              href="https://github.com/jsmnglng"
               target="_blank"
               rel="noopener noreferrer"
             >
               Github
             </a>
 
-            <a
-              href="https://twitter.com/jsmnglng"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Email
-            </a>
+            <a href="mailto:jsmn.glng@gmail.com">Email</a>
           </nav>
         </div>
 

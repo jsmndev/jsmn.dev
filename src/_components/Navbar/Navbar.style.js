@@ -42,6 +42,15 @@ export const NavMenu = styled.nav`
     width: 100%;
     min-width: 50rem;
     text-align: center;
+    @media (max-width: 700px) {
+      min-width: 0;
+    }
+
+    .page-links {
+      @media (max-width: 700px) {
+        display: none;
+      }
+    }
 
     li {
       margin-left: 3.5rem;

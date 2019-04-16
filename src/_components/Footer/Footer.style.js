@@ -24,6 +24,10 @@ export const FooterWrapper = styled.div`
   .footer-links {
     width: 45rem;
 
+    @media (max-width: 805px) {
+      width: 35rem;
+    }
+
     nav {
       ${flex()}
       width: 100%;

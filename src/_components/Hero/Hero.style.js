@@ -6,6 +6,10 @@ export const HeroContainer = styled.section`
   flex-direction: column;
   height: 100vh;
 
+  @media (max-width: 700px) {
+    display: none;
+  }
+
   .hero-image {
     text-align: center;
 

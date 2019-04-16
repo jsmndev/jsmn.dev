@@ -10,6 +10,14 @@ font-size: 5rem;
 font-weight: 700;
 color: ${redRegular};
 text-transform: uppercase;
+
+@media (max-width: 885px) {
+  font-size: 4rem;
+}
+
+@media (max-width: 711px) {
+  font-size: 3rem;
+}
 `;
 
 export const buttonLight = `

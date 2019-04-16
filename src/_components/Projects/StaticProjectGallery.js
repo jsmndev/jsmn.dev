@@ -134,7 +134,7 @@ const StaticProjectGallery = () => {
 
           <div className="minions">
             <img
-              src={require("../../_assets/svg/minion-3.svg")}
+              src={require("../../_assets/svg/minion-1.svg")}
               alt="4 minions"
             />
           </div>
