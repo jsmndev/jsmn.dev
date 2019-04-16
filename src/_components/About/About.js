@@ -6,11 +6,11 @@ const About = () => {
     <AboutContainer id="about">
       <AboutHeadline>
         <h1>Hello World.</h1>
-        <p class="main-headline">
+        <p className="main-headline">
           I'm Jasmine Galang and I'm a full-stack developer who is always
           creating and learning awesome stuff.
         </p>
-        <p class="secondary-headline">
+        <p className="secondary-headline">
           Studying web development with computer science at{" "}
           <a
             href="https://lambdaschool.com"

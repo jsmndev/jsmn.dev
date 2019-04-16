@@ -10,7 +10,7 @@ export const HeroContainer = styled.section`
     text-align: center;
 
     img {
-      width: 50%;
+      width: 60%;
       height: auto;
     }
   }

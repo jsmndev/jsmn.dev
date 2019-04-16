@@ -3,7 +3,8 @@ import { flex } from "../../_styles/mixins.style";
 import {
   redRegular,
   blackRegular,
-  blackLight
+  blackLight,
+  headingStyle
 } from "../../_styles/variables.style";
 
 export const AboutContainer = styled.section`
@@ -14,15 +15,11 @@ export const AboutContainer = styled.section`
 `;
 
 export const AboutHeadline = styled.div`
-  border: 2px solid pink;
   width: 50%;
 
   h1 {
     margin-bottom: 4rem;
-    font-size: 5rem;
-    font-weight: 700;
-    color: ${redRegular};
-    text-transform: uppercase;
+    ${headingStyle}
   }
 
   p {
@@ -55,12 +52,11 @@ export const AboutHeadline = styled.div`
 `;
 
 export const AboutImage = styled.div`
-  border: 2px solid lightgreen;
   width: 50%;
   text-align: right;
 
   img {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 `;

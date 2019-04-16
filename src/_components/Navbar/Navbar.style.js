@@ -4,7 +4,8 @@ import {
   blackLight,
   redRegular,
   redLight,
-  whiteRegular
+  whiteRegular,
+  buttonLight
 } from "../../_styles/variables.style";
 
 export const NavContainer = styled.div`
@@ -61,15 +62,7 @@ export const NavMenu = styled.nav`
 
     li:last-child {
       a {
-        border: 2px solid ${redRegular};
-        border-radius: 3rem;
-        padding: 1.5rem 2.5rem;
-        color: ${redRegular};
-
-        &:hover {
-          border-color: ${redLight};
-          color: ${redLight};
-        }
+        ${buttonLight}
       }
     }
   }
