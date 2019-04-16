@@ -7,45 +7,51 @@ const Footer = () => {
       <FooterWrapper>
         <div className="footer-links">
           <nav>
-            <ul>
-              <li>
-                <a
-                  href="https://twitter.com/jsmnglng"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Twitter
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/jsmnglng"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/jsmnglng"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/jsmnglng"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Email
-                </a>
-              </li>
-            </ul>
+            <a
+              href="https://twitter.com/jsmnglng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+
+            <a
+              href="https://twitter.com/jsmnglng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="https://twitter.com/jsmnglng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+
+            <a
+              href="https://twitter.com/jsmnglng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email
+            </a>
           </nav>
+        </div>
+
+        <div className="copyright-text">
+          <p>
+            &copy; 2019{" "}
+            <a
+              href="https://github.com/jsmnglng/jsmn.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jasmine Galang
+            </a>
+          </p>
         </div>
       </FooterWrapper>
     </FooterContainer>
