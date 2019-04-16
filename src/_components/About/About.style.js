@@ -15,6 +15,10 @@ export const AboutContainer = styled.section`
 export const AboutHeadline = styled.div`
   width: 50%;
 
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+
   h1 {
     margin-bottom: 4rem;
     ${headingStyle}
@@ -42,7 +46,7 @@ export const AboutHeadline = styled.div`
 
     @media (max-width: 711px) {
       font-size: 2rem;
-      line-height: 3.5rem;
+      line-height: 3rem;
     }
   }
 
@@ -76,6 +80,10 @@ export const AboutHeadline = styled.div`
 export const AboutImage = styled.div`
   width: 50%;
   text-align: right;
+
+  @media (max-width: 650px) {
+    display: none;
+  }
 
   img {
     width: 100%;

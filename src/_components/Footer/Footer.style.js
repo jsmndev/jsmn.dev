@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { flex, wrapper } from "../../_styles/mixins.style";
 import {
-  blackRegular,
   blackLight,
   redRegular,
   redLight
@@ -17,6 +16,15 @@ export const FooterWrapper = styled.div`
   padding: 2rem 0;
   color: ${blackLight};
 
+  @media (max-width: 680px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 588px) {
+    ${flex()}
+    flex-direction: column;
+  }
+
   a {
     transition: 150ms ease-in;
   }
@@ -28,14 +36,27 @@ export const FooterWrapper = styled.div`
       width: 35rem;
     }
 
+    @media (max-width: 680px) {
+      width: 30rem;
+    }
+
     nav {
       ${flex()}
       width: 100%;
+
+      @media (max-width: 588px) {
+        flex-direction: column;
+        margin: 2rem 0;
+      }
 
       a {
         width: 40%;
         letter-spacing: 0.04rem;
         color: ${blackLight};
+
+        @media (max-width: 588px) {
+          margin-bottom: 2rem;
+        }
 
         &:hover {
           color: ${redRegular};
@@ -46,6 +67,10 @@ export const FooterWrapper = styled.div`
 
   .copyright-text {
     letter-spacing: 0.04rem;
+
+    @media (max-width: 588px) {
+      margin-bottom: 1.5rem;
+    }
 
     a {
       color: ${redLight};
