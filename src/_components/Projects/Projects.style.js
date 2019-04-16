@@ -3,6 +3,7 @@ import { flex } from "../../_styles/mixins.style";
 import {
   blackRegular,
   blackLight,
+  redRegular,
   headingStyle,
   buttonDark,
   buttonLight
@@ -30,6 +31,16 @@ export const ProjectContainer = styled.section`
     @media (max-width: 711px) {
       font-size: 2rem;
       line-height: 3rem;
+    }
+
+    a {
+      border-bottom: 0.1rem solid ${blackLight};
+      transition: 150ms ease-in;
+
+      &:hover {
+        border-bottom: 0.1rem solid ${redRegular};
+        color: ${redRegular};
+      }
     }
   }
 `;
