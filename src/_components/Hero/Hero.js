@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { HeroContainer } from "./Hero.style";
 
 const Hero = () => {
@@ -11,12 +12,19 @@ const Hero = () => {
         />
       </div>
       <div className="drop-down-icon">
-        <a href="#about">
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           <img
             src={require("../../_assets/img/down-arrow.png")}
             alt="down arrow"
           />
-        </a>
+        </Link>
       </div>
     </HeroContainer>
   );
