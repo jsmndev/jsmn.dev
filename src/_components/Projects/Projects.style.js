@@ -9,7 +9,7 @@ import {
 } from "../../_styles/variables.style";
 
 export const ProjectContainer = styled.section`
-  padding-top: 15rem;
+  padding-top: 8rem;
 
   h1 {
     margin-bottom: 3rem;

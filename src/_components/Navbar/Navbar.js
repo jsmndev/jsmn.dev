@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { NavBrand, NavContainer, NavMenu, NavWrapper } from "./Navbar.style";
 
 class Navbar extends Component {
@@ -18,10 +19,14 @@ class Navbar extends Component {
     let scroll = window.scrollY;
 
     if (scroll > 0) {
-      this.setState({ active: "active" });
+      this.setState({ active: "active-nav" });
     } else {
       this.setState({ active: "" });
     }
+  };
+
+  scrollToTop = () => {
+    scroll.scrollToTop();
   };
 
   render() {
@@ -32,18 +37,46 @@ class Navbar extends Component {
             <img
               src={require("../../_assets/img/main-logo.png")}
               alt="letter J"
+              onClick={this.scrollToTop}
             />
           </NavBrand>
           <NavMenu>
             <ul>
               <li>
-                <a href="#top">Home</a>
+                <Link
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="#about">About</a>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Projects
+                </Link>
               </li>
               <li id="resume">
                 <a

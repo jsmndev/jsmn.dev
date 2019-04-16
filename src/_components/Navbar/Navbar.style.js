@@ -30,6 +30,13 @@ export const NavBrand = styled.a`
 `;
 
 export const NavMenu = styled.nav`
+  .active {
+    color: ${blackLight};
+    border-bottom: 2px solid ${blackLight};
+    padding-bottom: 0.5rem;
+    transition: 150ms ease-in;
+  }
+
   ul {
     ${flex("space-between", "center")}
     width: 100%;
@@ -44,13 +51,18 @@ export const NavMenu = styled.nav`
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         transition: 150ms ease-in;
+        cursor: pointer;
 
         &:hover {
           color: ${blackLight};
           border-bottom: 2px solid ${blackLight};
           padding-bottom: 0.5rem;
-          transition: 150ms ease-in;
         }
+      }
+      a:active {
+        color: ${blackLight};
+        border-bottom: 2px solid ${blackLight};
+        padding-bottom: 0.5rem;
       }
     }
 

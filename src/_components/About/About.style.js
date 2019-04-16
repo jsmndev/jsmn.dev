@@ -9,8 +9,7 @@ import {
 
 export const AboutContainer = styled.section`
   ${flex("space-between", "center")}
-  height: 100vh;
-  padding-top: 3rem;
+  height: 80vh;
 `;
 
 export const AboutHeadline = styled.div`
