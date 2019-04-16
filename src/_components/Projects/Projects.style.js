@@ -107,21 +107,39 @@ export const Project = styled.section`
       font-size: 1.8rem;
       line-height: 3rem;
       color: ${blackLight};
-      height: 12rem;
+      height: 8rem;
       margin-bottom: 3.5rem;
 
-      @media (max-width: 885px) {
-        font-size: 1.6rem;
-        line-height: 2.5rem;
+      @media (max-width: 1066px) {
+        height: 12rem;
       }
 
       @media (max-width: 610px) {
         height: 8rem;
       }
 
-      @media (max-width: 400px) {
-        font-size: 1.5rem;
-        margin-bottom: 4rem;
+      @media (max-width: 390px) {
+        height: 11rem;
+      }
+    }
+
+    .long-description {
+      height: 11rem;
+
+      @media (max-width: 1111px) {
+        height: 15rem;
+      }
+
+      @media (max-width: 610px) {
+        height: 11rem;
+      }
+
+      @media (max-width: 444px) {
+        height: 14rem;
+      }
+
+      @media (max-width: 345px) {
+        height: 16rem;
       }
     }
 

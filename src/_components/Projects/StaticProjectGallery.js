@@ -56,7 +56,7 @@ const StaticProjectGallery = () => {
         <div className="project-description">
           <h3>TEAM</h3>
           <h2>Luncher</h2>
-          <p>
+          <p className="long-description">
             A revolutionary tool to connect schools directly to donors who
             provided funds, helping remove barriers stopping children in need of
             healthy lunches.
