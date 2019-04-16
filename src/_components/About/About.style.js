@@ -10,6 +10,10 @@ import {
 export const AboutContainer = styled.section`
   ${flex("space-between", "center")}
   height: 80vh;
+
+  @media (max-width: 700px) {
+    height: 100vh;
+  }
 `;
 
 export const AboutHeadline = styled.div`
