@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { flex } from "../../_styles/mixins.style";
 import {
   blackRegular,
   blackLight,
@@ -8,8 +9,8 @@ import {
 } from "../../_styles/variables.style";
 
 export const ProjectContainer = styled.section`
-  border: 2px solid pink;
-
+  height: 100vh;
+  padding-top: 10rem;
   h1 {
     margin-bottom: 3rem;
     ${headingStyle}
@@ -24,14 +25,30 @@ export const ProjectContainer = styled.section`
 `;
 
 export const ProjectGallery = styled.div`
-  border: 2px solid lightgreen;
-  margin: 2rem 0;
+  margin: 4rem 0;
 `;
 
 export const Project = styled.section`
-  border: 2px solid orange;
+  ${flex()}
+  margin-bottom: 10rem;
+
+  .project-thumbnail {
+    width: 50%;
+
+    img {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  .inverted-thumbnail {
+    text-align: right;
+  }
 
   .project-description {
+    width: 50%;
+    padding: 2rem 0;
+
     h3 {
       font-size: 1.8rem;
       letter-spacing: 0.2rem;
@@ -47,25 +64,40 @@ export const Project = styled.section`
     }
 
     p {
+      font-size: 1.8rem;
+      line-height: 3rem;
       color: ${blackLight};
-    }
-  }
-
-  .btn-group {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-
-    a {
-      transition: 150ms ease-in;
+      height: 12rem;
+      margin-bottom: 3.5rem;
     }
 
-    .app-btn {
-      ${buttonDark}
+    .btn-group {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.3rem;
+
+      a {
+        margin-right: 3rem;
+        transition: 150ms ease-in;
+      }
+
+      .app-btn {
+        ${buttonDark}
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+      }
+
+      .src-btn {
+        ${buttonLight}
+      }
     }
 
-    .src-btn {
-      ${buttonLight}
+    .minions {
+      text-align: right;
+      img {
+        width: 65%;
+        height: auto;
+      }
     }
   }
 `;

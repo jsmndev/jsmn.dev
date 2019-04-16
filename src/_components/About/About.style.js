@@ -8,7 +8,6 @@ import {
 } from "../../_styles/variables.style";
 
 export const AboutContainer = styled.section`
-  border: 2px solid lightblue;
   ${flex("space-between", "center")}
   height: 100vh;
   padding-top: 3rem;
