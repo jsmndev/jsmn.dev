@@ -12,6 +12,7 @@ export const NavContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   background-color: ${whiteRegular};
   transition: 150ms ease-in;
 `;
