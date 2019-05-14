@@ -27,7 +27,7 @@ const StaticProjectGallery = () => {
           <div className="btn-group">
             <a
               className="app-btn"
-              href="https://learnedadev.netlify.com/"
+              href="https://learnlocker.dev/"
               target="_blank"
               rel="noopener noreferrer"
             >
