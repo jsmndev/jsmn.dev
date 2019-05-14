@@ -1,11 +1,6 @@
 import styled from "styled-components";
 import { flex } from "../../_styles/mixins.style";
-import {
-  redRegular,
-  blackRegular,
-  blackLight,
-  headingStyle
-} from "../../_styles/variables.style";
+import { colors, headingStyle } from "../../_styles/variables.style";
 
 export const AboutContainer = styled.section`
   ${flex("space-between", "center")}
@@ -29,7 +24,7 @@ export const AboutHeadline = styled.div`
   }
 
   p {
-    color: ${blackRegular};
+    color: ${colors.blackRegular};
     letter-spacing: 0.05rem;
   }
 
@@ -57,7 +52,7 @@ export const AboutHeadline = styled.div`
   .secondary-headline {
     font-size: 2.5rem;
     line-height: 4rem;
-    color: ${blackLight};
+    color: ${colors.blackLight};
 
     @media (max-width: 1200px) {
       font-size: 2rem;
@@ -69,13 +64,13 @@ export const AboutHeadline = styled.div`
     }
 
     a {
-      border-bottom: 0.1rem solid ${blackLight};
-      color: ${blackLight};
+      border-bottom: 0.1rem solid ${colors.blackLight};
+      color: ${colors.blackLight};
       transition: 150ms ease-in;
 
       &:hover {
-        border-bottom: 0.1rem solid ${redRegular};
-        color: ${redRegular};
+        border-bottom: 0.1rem solid ${colors.redRegular};
+        color: ${colors.redRegular};
       }
     }
   }

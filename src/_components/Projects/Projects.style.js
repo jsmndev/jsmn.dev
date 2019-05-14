@@ -1,12 +1,10 @@
 import styled from "styled-components";
 import { flex } from "../../_styles/mixins.style";
 import {
-  blackRegular,
-  blackLight,
-  redRegular,
-  headingStyle,
+  colors,
   buttonDark,
-  buttonLight
+  buttonLight,
+  headingStyle
 } from "../../_styles/variables.style";
 
 export const ProjectContainer = styled.section`
@@ -19,7 +17,7 @@ export const ProjectContainer = styled.section`
 
   p {
     font-size: 2.5rem;
-    color: ${blackRegular};
+    color: ${colors.blackRegular};
     letter-spacing: 0.05rem;
     line-height: 3.5rem;
 
@@ -34,12 +32,12 @@ export const ProjectContainer = styled.section`
     }
 
     a {
-      border-bottom: 0.1rem solid ${blackLight};
+      border-bottom: 0.1rem solid ${colors.blackLight};
       transition: 150ms ease-in;
 
       &:hover {
-        border-bottom: 0.1rem solid ${redRegular};
-        color: ${redRegular};
+        border-bottom: 0.1rem solid ${colors.redRegular};
+        color: ${colors.redRegular};
       }
     }
   }
@@ -84,7 +82,7 @@ export const Project = styled.section`
       font-size: 1.8rem;
       letter-spacing: 0.2rem;
       line-height: 2.5rem;
-      color: ${blackLight};
+      color: ${colors.blackLight};
 
       @media (max-width: 755px) {
         font-size: 1.6rem;
@@ -105,7 +103,7 @@ export const Project = styled.section`
       margin-bottom: 3rem;
       font-size: 3.5rem;
       font-weight: 700;
-      color: ${blackRegular};
+      color: ${colors.blackRegular};
 
       @media (max-width: 755px) {
         font-size: 2.5rem;
@@ -117,7 +115,7 @@ export const Project = styled.section`
     p {
       font-size: 1.8rem;
       line-height: 3rem;
-      color: ${blackLight};
+      color: ${colors.blackLight};
       height: 8rem;
       margin-bottom: 3.5rem;
 

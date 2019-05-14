@@ -1,9 +1,18 @@
-export const redRegular = "#ff635b";
-export const redLight = "#ff9c96";
-export const redDark = "#ff2c1f";
-export const blackRegular = "#333";
-export const blackLight = "#707070";
-export const whiteRegular = "#fff";
+const redRegular = "#ff635b";
+const redLight = "#ff9c96";
+const redDark = "#ff2c1f";
+const blackRegular = "#333";
+const blackLight = "#707070";
+const whiteRegular = "#fff";
+
+export const colors = {
+  redRegular,
+  redLight,
+  redDark,
+  blackRegular,
+  blackLight,
+  whiteRegular
+};
 
 export const headingStyle = `
 font-size: 5rem;

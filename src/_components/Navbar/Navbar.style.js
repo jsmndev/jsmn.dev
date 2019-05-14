@@ -1,10 +1,6 @@
 import styled from "styled-components";
 import { flex, wrapper } from "../../_styles/mixins.style";
-import {
-  blackLight,
-  whiteRegular,
-  buttonLight
-} from "../../_styles/variables.style";
+import { buttonLight, colors } from "../../_styles/variables.style";
 
 export const NavContainer = styled.div`
   ${wrapper()}
@@ -12,7 +8,7 @@ export const NavContainer = styled.div`
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: ${whiteRegular};
+  background-color: ${colors.whiteRegular};
   transition: 150ms ease-in;
 `;
 
@@ -31,8 +27,8 @@ export const NavBrand = styled.a`
 
 export const NavMenu = styled.nav`
   .active {
-    color: ${blackLight};
-    border-bottom: 2px solid ${blackLight};
+    color: ${colors.blackLight};
+    border-bottom: 2px solid ${colors.blackLight};
     padding-bottom: 0.5rem;
     transition: 150ms ease-in;
   }
@@ -63,14 +59,14 @@ export const NavMenu = styled.nav`
         cursor: pointer;
 
         &:hover {
-          color: ${blackLight};
-          border-bottom: 2px solid ${blackLight};
+          color: ${colors.blackLight};
+          border-bottom: 2px solid ${colors.blackLight};
           padding-bottom: 0.5rem;
         }
       }
       a:active {
-        color: ${blackLight};
-        border-bottom: 2px solid ${blackLight};
+        color: ${colors.blackLight};
+        border-bottom: 2px solid ${colors.blackLight};
         padding-bottom: 0.5rem;
       }
     }
