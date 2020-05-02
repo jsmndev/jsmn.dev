@@ -10,17 +10,6 @@ const About = () => {
           I'm Jasmine Galang and I'm a full-stack developer who is always
           creating and learning awesome stuff.
         </p>
-        <p className="secondary-headline">
-          Studying web development with computer science at{" "}
-          <a
-            href="https://lambdaschool.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Lambda School
-          </a>
-          .
-        </p>
       </AboutHeadline>
 
       <AboutImage>
@@ -32,5 +21,9 @@ const About = () => {
     </AboutContainer>
   );
 };
+
+function greet() {
+  return "wtf";
+}
 
 export { About };
