@@ -37,7 +37,7 @@ const Footer = () => {
 
         <div className="copyright-text">
           <p>
-            &copy; 2019{" "}
+            &copy; 2020{" "}
             <a
               href="https://github.com/jsmnglng/jsmn.dev"
               target="_blank"
